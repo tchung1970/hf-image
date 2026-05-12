@@ -1,0 +1,17 @@
+# Generated sample outputs
+hf_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local Claude Code settings
+.claude/
