@@ -95,12 +95,52 @@ Built-in default prompt:
 
 `q` quits at any picker or prompt. `Ctrl-C` / `Ctrl-D` also exit cleanly.
 
-Output is saved to the current working directory as
-`hf_<model_id>_YYYYMMDD_HHMMSS.png` and auto-opened in Preview.
+Output is saved to `./images/hf_<model_id>_YYYYMMDD_HHMMSS.png` (the `images/`
+directory is created if missing) and auto-opened in Preview.
 
 ## Example
 
-Z-Image (2K), 16:9, default whale prompt — generated in ~18 s for 0.15 credits:
+A full session — Enter accepted at every prompt (default model, aspect ratio,
+prompt, and confirmation):
+
+```
+$ ls
+hf-image.py    images        README.md
+$ ./hf-image.py
+
+Available models:
+  1. GPT Image 2 (Medium, 2K)  3 credits
+  2. Nano Banana 2 (2K)        2 credits
+  3. Nano Banana Pro (2K)      2 credits
+  4. FLUX.2 Pro (2K)           1.5 credits
+  5. Seedream 5.0 Lite (2K)    1 credit
+  6. Z-Image (2K)              0.15 credits (default)
+Choose model [1-6, Enter for default, q to quit]:
+
+Aspect ratios for Z-Image (2K):
+  1. 1:1
+  2. 3:4
+  3. 4:3
+  4. 9:16
+  5. 16:9 (default)
+Choose [1-5, Enter for default, q to quit]:
+
+Estimated cost: 0.15 credits
+
+Default prompt:
+  A majestic whale swimming in a deep blue sea, sunlight filtering through the water, gentle waves above, cinematic lighting, realistic ocean atmosphere, peaceful mood, high detail.
+
+Enter your prompt (Enter for default, q to quit):
+
+Generate with Z-Image (2K) for 0.15 credits? [Y/n]:
+
+→ Z-Image (2K) | aspect_ratio=16:9 | 0.15 credits
+Submitting...
+  ✓ completed    [16s]
+✓ images/hf_z_image_20260511_224338.png
+```
+
+Result:
 
 ![Whale example generated with Z-Image at 16:9](images/example.png)
 

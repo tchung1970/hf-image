@@ -93,7 +93,7 @@ DEFAULT_PROMPT = (
     "the water, gentle waves above, cinematic lighting, realistic ocean "
     "atmosphere, peaceful mood, high detail."
 )
-DOWNLOAD_DIR = Path.cwd()
+DOWNLOAD_DIR = Path.cwd() / "images"
 
 
 def _credit_str(credits) -> str:
