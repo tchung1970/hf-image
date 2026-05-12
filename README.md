@@ -128,7 +128,9 @@ Choose [1-5, Enter for default, q to quit]:
 Estimated cost: 0.15 credits
 
 Default prompt:
-  A majestic whale swimming in a deep blue sea, sunlight filtering through the water, gentle waves above, cinematic lighting, realistic ocean atmosphere, peaceful mood, high detail.
+  A majestic whale swimming in a deep blue sea, sunlight filtering
+  through the water, gentle waves above, cinematic lighting, realistic
+  ocean atmosphere, peaceful mood, high detail.
 
 Enter your prompt (Enter for default, q to quit):
 
