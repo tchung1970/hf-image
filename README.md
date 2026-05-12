@@ -51,6 +51,13 @@ higgsfield account status
 
 ## Install
 
+Clone the repo:
+
+```bash
+git clone https://github.com/tchung1970/hf-image.git
+cd hf-image
+```
+
 Optional — symlink the script into a directory on your `PATH` so you can run
 `hf-image` from anywhere:
 
