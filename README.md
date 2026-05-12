@@ -89,9 +89,12 @@ Then follow the prompts:
 
 Built-in default prompt:
 
-> A majestic whale swimming in a deep blue sea, sunlight filtering through the
-> water, gentle waves above, cinematic lighting, realistic ocean atmosphere,
-> peaceful mood, high detail.
+> A realistic humpback whale swimming gracefully underwater in a clear deep
+> blue ocean, captured from a natural side-profile angle with one clearly
+> visible head and one visible eye, full body visible, correct whale anatomy,
+> long pectoral fins, textured gray skin, sunlight rays filtering through the
+> water surface, gentle bubbles, cinematic underwater photography, peaceful
+> ocean mood, photorealistic, high detail.
 
 `q` quits at any picker or prompt. `Ctrl-C` / `Ctrl-D` also exit cleanly.
 
@@ -128,9 +131,13 @@ Choose [1-5, Enter for default, q to quit]:
 Estimated cost: 0.15 credits
 
 Default prompt:
-  A majestic whale swimming in a deep blue sea, sunlight filtering
-  through the water, gentle waves above, cinematic lighting, realistic
-  ocean atmosphere, peaceful mood, high detail.
+  A realistic humpback whale swimming gracefully underwater in a clear
+  deep blue ocean, captured from a natural side-profile angle with one
+  clearly visible head and one visible eye, full body visible, correct
+  whale anatomy, long pectoral fins, textured gray skin, sunlight rays
+  filtering through the water surface, gentle bubbles, cinematic
+  underwater photography, peaceful ocean mood, photorealistic, high
+  detail.
 
 Enter your prompt (Enter for default, q to quit):
 

@@ -89,9 +89,12 @@ for _m in MODELS:
 
 
 DEFAULT_PROMPT = (
-    "A majestic whale swimming in a deep blue sea, sunlight filtering through "
-    "the water, gentle waves above, cinematic lighting, realistic ocean "
-    "atmosphere, peaceful mood, high detail."
+    "A realistic humpback whale swimming gracefully underwater in a clear deep "
+    "blue ocean, captured from a natural side-profile angle with one clearly "
+    "visible head and one visible eye, full body visible, correct whale "
+    "anatomy, long pectoral fins, textured gray skin, sunlight rays filtering "
+    "through the water surface, gentle bubbles, cinematic underwater "
+    "photography, peaceful ocean mood, photorealistic, high detail."
 )
 DOWNLOAD_DIR = Path.cwd() / "images"
 
