@@ -98,6 +98,12 @@ Built-in default prompt:
 Output is saved to the current working directory as
 `hf_<model_id>_YYYYMMDD_HHMMSS.png` and auto-opened in Preview.
 
+## Example
+
+Z-Image (2K), 16:9, default whale prompt — generated in ~18 s for 0.15 credits:
+
+![Whale example generated with Z-Image at 16:9](images/example.png)
+
 ## Models
 
 All entries use the model's web-UI-default settings. Costs are for a single
